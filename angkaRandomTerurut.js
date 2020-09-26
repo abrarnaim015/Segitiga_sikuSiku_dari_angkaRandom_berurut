@@ -1,6 +1,3 @@
-
-
-
 let numPar = nilaiRandomArr(5)
 let strPar = numPar[0]
 
@@ -32,7 +29,6 @@ function urutAngka(str, arr)
             }
         }
     }
-    // console.log(arr)
     return arr
 }
 
@@ -82,10 +78,3 @@ function piramid(num)
     }
 }
 piramid(numPar[1])
-
-
-// console.log(nilaiRandomArr(8)[0])
-// console.log(urutAngka(strPar, numPar))
-// console.log(par, strPar)
-// console.log(nilaiRandomArr(9))
-// console.log(Math.floor(Math.random()*10)+1)
